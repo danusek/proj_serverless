@@ -1,0 +1,23 @@
+S3 Bucket jest miejscem, w którym przechowywane są obiekty w S3(simple storage server).
+S3 służy do przechowywania i łatwego dostępu do dowolnej ilości danych. 
+Elementy, z których składa się S3 to: Bucket - pełni rolę folderu, w którym przechowaywane są 
+pliki (obiekty), z Klucza - jest to unikalny identyfikator obiektu w ramach bucketu, 
+Regionu - geograficzna lokalizacja przechowywania danych przez amazon, Availability Zone – jest wyizolowaną lokalizacją w ramach jednego regionu Data Center
+
+Zalety:
+Łatwy w użyciu + jest bardzo dużo dokumentacji oraz poradników w sieci
+Nieograniczona pojemność servera
+Niezawodne szyfrowanie i bezpieczeństwo
+Wady
+AWS ogranicza zasoby według lokalizacji, więc niektóre obszary mogą mieć mniej zasobów niż inne.
+Ciężko zarządzać plikami w dużych repozytoriach.
+
+Różnice między S3 oraz azure blob storage:
+W azure dane przechowywane są w blobach w kontenerach, natomiast w S3 dane przechowywane są jako obiekty w bucketach.
+AWS s3 jest tańszy.
+S3 ma lepsze zabezpieczenia
+
+Kiedy lepiej korzystać z Azure:
+Jeżeli korzystamy z microsoft active directory możemy połączyć się z azure AD
+Kiedy lepiej korzystać z AWS S3:
+Jeżeli zależy nam na szybkim uruchomieniu usługi bez dużej ilości konfiguracji
